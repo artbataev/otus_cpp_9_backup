@@ -4,7 +4,7 @@
 #include <vector>
 
 struct SomeStruct {
-    bool operator<(const SomeStruct& ) {
+    bool operator<(const SomeStruct& ) const {
         return true;
     }
 };
